@@ -3,12 +3,12 @@
   --vermelha: #e93d50;
   --vermelha-escura: #af303f;
   --branca: #fff;
-  --luz: rgb(229, 255, 0);
+  --luz: rgb(225, 0, 255);
 }
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
+  background: linear-gradient(45deg, #22d5db 0%,#67dae9 100%);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -34,7 +34,7 @@ h1 {
 
 .tecla {
   background-color: var(--branca);
-  border-radius: 30px;
+  border-radius: 25px;
   box-shadow: 3px 3px 0 var(--cinza);
   color: var(--vermelha);
   cursor: pointer;
@@ -61,7 +61,7 @@ h1 {
   box-shadow: 1px 1px 10px var(--luz);
 }
 
-.tecla.active:focus,
+.tecla.ativa:focus,
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
 }
